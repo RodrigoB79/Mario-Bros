@@ -1,0 +1,38 @@
+nav{
+    min-height: 6vh;
+    background-color: yellow rgd(255,255,111);
+    display: flex;flex-wrap: wrap; justify-content: flex-end;align-items: center;
+    gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+
+*{
+margin: 0;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+display: block;
+
+   
+}
