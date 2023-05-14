@@ -42,7 +42,7 @@
 
 nav{
     min-height: 6vh;
-    background-color: yellow rgd(255,255,111);
+    background-color:rgb(255,255,111);
     display: flex;flex-wrap: wrap; justify-content: flex-end;align-items: center;
     gap: 1rem;
     row-gap: 1rem;
@@ -207,5 +207,56 @@ footer{
     flex-grow: 1;
     
 }
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+dt {
+    font-weight: 600;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+table caption {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    background-color: coral;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+
 
 
